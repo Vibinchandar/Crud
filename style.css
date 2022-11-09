@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;   
+    background-image: url("img.jpeg");
+    background-size: cover;  
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;    
+}
+.heading{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(228, 56, 56);
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+.input-item{
+  font-size: 15px;
+    padding: 8px 18px;
+}
+.items-container{
+  font-size: 1.2rem; 
+  padding: 5px; 
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+.itbn{
+  background-color: rgb(230, 97, 240);
+  padding: 5px;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+
+.container{ 
+    padding: 1rem;
+}
+
+li{
+  list-style: none;
+  margin-top: 5px;
+  font-weight: 600;  
+}
+
+.btn{
+  font-size: 15px;
+    padding: 8px 18px;
+    background-color: rgb(230, 97, 240);
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+    text-transform: capitalize;
+    margin: auto;    
+}
